@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color:linen;
+
+        }
+        header{
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        .Gallery{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+            gap: 5px;
+            padding: 35px;
+            max-width: 1200px;
+            margin: 0 auto;
+
+        }
+        .Gallery img{
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            height: auto;
+            border-radius: 10px;
+            
+            
+        }
+
+        nav{
+            display:flex ;
+            justify-content: center;
+            padding: 15px;
+            background-color:dimgray;
+        }
+        nav a{
+            color: aliceblue;
+            text-decoration:solid;
+            transition: background-color 0.4s;
+            border-radius: 20px;
+            margin: 0 18px;
+            padding: 5px 20px;
+
+        }
+        nav a:hover{
+            background-color:#555 ;
+
+        }
+    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <div class="Gallery">
+        <img src="Image 1.jpg" alt="Bird">
+        <img src="Image 2.jpg" alt="Snake">
+        <img src="Image 3.jpg" alt="Droplets of water">
+        <img src="image 4.jpg" alt="Welding Photo">
+        <img src="image 5.jpg" alt="Tea Farming">
+        <img src="image 6.jpg" alt="Moutntains in Snow">
+        <img src="Cristiano Ronaldo.jpg" alt="Ronaldo">
+        <img src="bird 2.jpg" alt="Night Bird">
+        <img src="stadium.jpg" alt="stadium">
+        <img src="fans.jpg" alt="fans">
+        <img src="Mountain 2.jpg" alt="mountain 2">
+        <img src="night river.jpg" alt="river in night">
+    </div>
+    
+        <footer><h1 style="text-align: center;">&copy;<a href="Text and Image Webpage.html">Dhruv Patil</a></h1></footer>
+    
+    
+</body>
+</html>
